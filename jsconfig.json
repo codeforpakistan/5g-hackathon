@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "esnext",
-    "baseUrl": "/5g-hackathon/",
+    "baseUrl": "./",
     "moduleResolution": "node",
     "paths": {
       "@/*": [
