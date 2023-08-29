@@ -1,7 +1,8 @@
 <template>
-  <HelloWorld />
+  <h1>Hello World</h1>
+  <!-- <HelloWorld /> -->
 </template>
 
-<script setup>
+<!-- <script setup>
   import HelloWorld from '@/components/HelloWorld.vue'
-</script>
+</script> -->
