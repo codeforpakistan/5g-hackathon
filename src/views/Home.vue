@@ -4,6 +4,7 @@
   <HackDomains />
   <EventSchedule />
   <PrizeList />
+  <PageFooter />
 </template>
 
 <script setup>
@@ -12,4 +13,5 @@
   import HackDomains from '@/components/HackDomains.vue'
   import EventSchedule from '@/components/EventSchedule.vue'
   import PrizeList from '@/components/PrizeList.vue'
+  import PageFooter from '@/components/PageFooter.vue'
 </script>
