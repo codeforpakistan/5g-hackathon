@@ -1,9 +1,11 @@
 <template>
-  <v-container id="home" fluid class="banner h-screen">
-    <v-responsive class="align-center text-center fill-height">
-      <v-btn flat size="x-large" color="primary">Register now</v-btn>
-    </v-responsive>
-  </v-container>
+  <section id="home" class="banner h-screen">
+    <v-container fluid class="fill-height">
+      <v-responsive class="align-center text-center fill-height">
+        <v-btn flat size="x-large" color="primary">Register now</v-btn>
+      </v-responsive>
+    </v-container>
+  </section>
 </template>
 
 <script setup>

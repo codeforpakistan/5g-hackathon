@@ -1,9 +1,9 @@
 <template>
-  <section id="schedule" class="bg-blue-grey-darken-4 py-md-8">
+  <section id="schedule" class="py-md-8 py-lg-16" :class="[theme.global.current.value.dark ? 'bg-blue-grey-darken-4' : 'bg-grey-lighten-3']">
     <v-container>
-      <v-responsive class="align-center fill-height py-md-8">
-        <h3 class="text-h2 text-md-center font-weight-bold"><span class="text-red px-3">[</span>Event Schedule<span
-            class="text-red px-3">]</span></h3>
+      <v-responsive class="align-center fill-height py-md-8 py-lg-16">
+        <h3 class="text-h2 text-md-center font-weight-bold"><span class="text-primary pe-3">[</span>Schedule<span
+            class="text-primary ps-3">]</span></h3>
         <v-tabs v-model="tab" stacked align-tabs="center" density="comfortable" color="primary" class="my-4 my-lg-8">
           <v-tab id="">Registration</v-tab>
           <v-tab>Shortlisting</v-tab>
@@ -83,6 +83,11 @@
     </v-container>
   </section>
 </template>
+
+<script setup>
+import { useTheme } from 'vuetify'
+const theme = useTheme()
+</script>
 
 <script>
 export default {
