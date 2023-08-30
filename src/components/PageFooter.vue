@@ -1,6 +1,6 @@
 <template>
-  <v-container id="prizes" fluid class="bg-red-darken-4">
-    <v-responsive class="align-center text-center py-16">
+  <v-container id="prizes" fluid class="h-screen bg-red-darken-4">
+    <v-responsive class="align-center fill-height text-center">
       <v-row justify="center">
         <v-col cols="2">
           <h3>Jazz Pakistan</h3>
