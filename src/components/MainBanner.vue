@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="banner text-white py-md-8 py-lg-16">
+  <section id="banner" class="banner text-white py-md-8 py-lg-16">
     <v-container fluid class="fill-height text-center py-md-8 py-lg-16">
       <v-responsive class="align-center fill-height">
         <p class="text-h5 font-weight-bold">#Jazz5Grevolution</p>

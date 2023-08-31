@@ -1,9 +1,9 @@
 <template>
-  <RegistrationForm />
+  <TermsConditions />
   <PageFooter />
 </template>
 
 <script setup>
-  import RegistrationForm from '@/components/RegistrationForm.vue'
+  import TermsConditions from '@/components/TermsConditions.vue'
   import PageFooter from '@/components/PageFooter.vue'
 </script>

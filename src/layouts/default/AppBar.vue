@@ -1,12 +1,12 @@
 <template>
   <v-app-bar flat>
     <v-spacer />
-    <v-btn text href="#home">Home</v-btn>
-    <v-btn text href="#about">About</v-btn>
-    <v-btn text href="#themes">Themes</v-btn>
-    <v-btn text href="#schedule">Schedule</v-btn>
-    <v-btn text href="#prizes">Prizes</v-btn>
-    <v-btn text href="#resources">Resources</v-btn>
+    <v-btn text href="/#banner">Home</v-btn>
+    <v-btn text href="/#about">About</v-btn>
+    <v-btn text href="/#themes">Themes</v-btn>
+    <v-btn text href="/#schedule">Schedule</v-btn>
+    <v-btn text href="/#prizes">Prizes</v-btn>
+    <v-btn text href="/#resources">Resources</v-btn>
     <v-spacer />
     <!-- <v-btn @click="toggleTheme" icon><v-icon>mdi-theme-light-dark</v-icon></v-btn> -->
   </v-app-bar>

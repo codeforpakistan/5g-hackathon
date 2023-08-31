@@ -1,7 +1,8 @@
 <template>
-  <section id="prizes" class="py-md-8 py-lg-16">
+  <section id="prizes" class="confetti py-md-8 py-lg-16">
     <v-container class="py-md-8 py-lg-16 text-center">
-      <h2 class="text-h2 font-weight-bold"><span class="text-primary pe-3">[</span>Prizes<span class="text-primary ps-3">]</span></h2>
+      <h2 class="text-h2 font-weight-bold"><span class="text-primary pe-3">[</span>Prizes<span
+          class="text-primary ps-3">]</span></h2>
       <v-row class="mt-8">
         <v-col cols="6" md="5" offset-md="1">
           <h3 class="text-overline font-weight-bold text-primary">First Place</h3>
@@ -13,7 +14,8 @@
         </v-col>
         <v-col md="10" offset-md="1">
           <h3 class="text-overline font-weight-bold text-primary">Mentoring and Incubation</h3>
-          <p class="text-h5 font-weight-">Both winning projects will be incubated at NUST and given access to the 5G lab as well as mentoring sessions to help fine tune their projects. </p>
+          <p class="text-h5 font-weight-">Both winning projects will be incubated at NUST and given access to the 5G lab
+            as well as mentoring sessions to help fine tune their projects. </p>
         </v-col>
       </v-row>
     </v-container>
@@ -21,3 +23,10 @@
 </template>
 
 
+<style>
+.confetti {
+  background-image: url('@/assets/confetti.svg') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+}</style>

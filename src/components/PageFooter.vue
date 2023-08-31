@@ -1,5 +1,5 @@
 <template>
-  <section id="prizes" class="bg-grey-darken-4 py-md-8 py-lg-16">
+  <v-footer class="tornado py-md-8 py-lg-16 text-white">
     <v-container class="pt-md-8 pt-lg-16">
       <v-row justify="center" align="end">
         <v-col cols="2">
@@ -21,11 +21,16 @@
           </v-card>
         </v-col>
       </v-row>
-      <p class="mt-16 text-center">Made with ❤️ by Code for Pakistan</p>
+      <p class="mt-16 text-center">Made with ❤️ by Code for Pakistan | <router-link class="text-white" :to="{ name: 'Terms' }">Terms and Conditions</router-link></p>
+      
     </v-container>
-  </section>
+  </v-footer>
 </template>
 
 <script setup>
 //
 </script>
+
+<style>
+  .tornado { background-image: url('@/assets/tornado.svg') !important; background-position: center center !important; background-size: cover !important; background-repeat: none !important; }
+</style>
