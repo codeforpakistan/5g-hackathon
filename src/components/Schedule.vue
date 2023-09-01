@@ -1,9 +1,8 @@
 <template>
-  <section id="schedule" class="bg-grey-lighten-3 py-md-8 py-lg-16">
-    <v-container class="py-md-8 py-lg-16 text-center">
-      <h3 class="text-h2 font-weight-bold"><span class="text-primary pe-3">[</span>Schedule<span
-          class="text-primary ps-3">]</span></h3>
-      <v-tabs v-model="tab" align-tabs="center" color="primary" class="my-4 my-lg-8">
+  <section id="schedule" class="triangles py-sm-8 py-lg-16">
+    <v-container>
+      <h2 class="text-h4 text-sm-h3 text-sm-center font-weight-bold mb-4"><span class="text-primary pe-3">[</span>Schedule<span class="text-primary ps-3">]</span></h2>
+      <v-tabs v-model="tab" align-tabs="center" color="primary" center-active class="my-4 my-lg-8">
         <v-tab>Registration</v-tab>
         <v-tab>Shortlisting</v-tab>
         <v-tab>Orientation</v-tab>
@@ -11,7 +10,7 @@
         <v-tab>Testing</v-tab>
         <v-tab>Judging</v-tab>
       </v-tabs>
-      <v-window v-model="tab">
+      <v-window v-model="tab" class="text-sm-center">
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase I: Registration</v-card-title>
@@ -20,7 +19,6 @@
               Hackathon is announced on social media, registrations are opened, and candidates are requested to submit
               applications. Registrations to remain open till the 15th of September.
             </v-card-text>
-            <v-btn color="primary" variant="flat" to="/register">Register Now</v-btn>
           </v-card>
         </v-window-item>
         <v-window-item>
@@ -80,8 +78,6 @@
   </section>
 </template>
 
-
-
 <script>
 export default {
   data: () => ({
@@ -89,3 +85,11 @@ export default {
   }),
 }
 </script>
+
+<style>
+  .triangles { 
+    background-image: url('@/assets/triangles.svg'); 
+    background-position: center center; 
+    background-size: cover; 
+  }
+</style>

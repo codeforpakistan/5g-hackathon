@@ -1,19 +1,19 @@
 <template>
-  <MainBanner />
-  <AboutEvent />
-  <HackThemes />
-  <EventSchedule />
-  <PrizeList />
-  <ResourceList />
+  <Banner />
+  <About />
+  <Themes />
+  <Schedule />
+  <Prizes />
+  <Eligibility />
   <PageFooter />
 </template>
 
 <script setup>
-  import MainBanner from '@/components/MainBanner.vue'
-  import AboutEvent from '@/components/AboutEvent.vue'
-  import HackThemes from '@/components/HackThemes.vue'
-  import EventSchedule from '@/components/EventSchedule.vue'
-  import PrizeList from '@/components/PrizeList.vue'
-  import ResourceList from '@/components/ResourceList.vue'
-  import PageFooter from '@/components/PageFooter.vue'
+  import Banner from '@/components/Banner.vue'
+  import About from '@/components/About.vue'
+  import Themes from '@/components/Themes.vue'
+  import Schedule from '@/components/Schedule.vue'
+  import Prizes from '@/components/Prizes.vue'
+  import Eligibility from '@/components/Eligibility.vue'
+  import PageFooter from '@/components/Footer.vue'
 </script>

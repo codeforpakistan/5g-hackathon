@@ -10,5 +10,10 @@
 // );
 
 @use 'vuetify/settings' with (
-    $body-font-family: 'Lato'
+    $body-font-family: 'Lato',
+    $container-max-widths: (
+        'lg': 1280px,
+        'xl': 1280px,
+        'xxl': 1280px,
+    ),
 );
