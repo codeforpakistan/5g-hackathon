@@ -31,7 +31,7 @@ export default {
   data: () => ({
     drawer: false,
     menu: [
-      { title: 'Home', href: '#banner' },
+      { title: 'Home', href: '#home' },
       { title: 'About', href: '#about' },
       { title: 'Themes', href: '#themes' },
       { title: 'Schedule', href: '#schedule' },
