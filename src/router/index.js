@@ -34,7 +34,7 @@ const router = createRouter({
     } else if (savedPosition) {
       return savedPosition
     } else {
-      return { top: 64 }
+      return { top: 0 }
     }
   },
 })

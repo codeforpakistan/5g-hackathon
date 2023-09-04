@@ -3,7 +3,10 @@
     <v-container>
       <v-form ref="form" fast-fail method="POST" action="https://api.sheetmonkey.io/form/pEfu2sFF6naN1rziidLToB" @submit.prevent="onSubmit">
         <v-card variant="text" class="mx-auto" max-width="600">
-          <v-card-title class="text-h5 text-sm-h4 text-center mb-4 text-primary">Event Registration Form</v-card-title>
+          <v-card-title class="text-h5 text-sm-h4 mb-4 text-primary">
+            <v-btn icon flat color="grey-lighten-3" @click="$router.go(-1)"><v-icon>mdi-arrow-left</v-icon></v-btn>
+            Event Registration Form
+          </v-card-title>
           <v-card-text>
             <v-text-field variant="underlined" label="Full name" name="name" v-model="name" :rules="rules.required"></v-text-field>
             <v-text-field variant="underlined" label="Email address" name="email" v-model="email" :rules="rules.required"></v-text-field>
