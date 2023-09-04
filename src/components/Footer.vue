@@ -8,7 +8,7 @@
           </v-card>
         </v-col>
         <v-col cols="4" sm="3">
-          <v-card variant="text" href="https://nust.edu.pk">
+          <v-card variant="text" href="https://sines.nust.edu.pk">
             <v-img src="@/assets/nust_logo.svg" eager alt="National University of Sciences and Technology" />
           </v-card>
         </v-col>
