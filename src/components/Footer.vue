@@ -1,31 +1,37 @@
 <template>
-  <v-footer class="tornado py-sm-8 py-md-16 text-white">
+  <section class="tornado py-sm-8 py-md-16 text-white text-center">
     <v-container>
-      <v-row justify="space-around">
-        <v-col cols="4" sm="3">
-          <v-card variant="text" href="https://jazz.com.pk">
-            <v-img src="@/assets/jazz_logo.svg" eager alt="Jazz Pakistan" />
-          </v-card>
+      <v-row justify="center">
+        <v-col cols="3">
+          <a href="https://jazz.com.pk" target="_blank">
+            <v-img src="@/assets/jazz_logo.png" eager alt="Jazz Pakistan" />
+          </a>
         </v-col>
-        <v-col cols="4" sm="3">
-          <v-card variant="text" href="https://sines.nust.edu.pk">
+        <v-col cols="3">
+          <a href="https://sines.nust.edu.pk" target="_blank">
             <v-img src="@/assets/nust_logo.svg" eager alt="National University of Sciences and Technology" />
-          </v-card>
+          </a>
         </v-col>
-        <v-col cols="4" sm="3">
-          <v-card variant="text" href="https://codeforpakistan.org">
-            <v-img src="@/assets/cfp_logo.svg" eager class="ma-4" alt="Code for Pakistan" />
-          </v-card>
+        <v-col cols="3">
+          <a href="https://nitb.gov.pk" target="_blank">
+            <v-img src="@/assets/nitb_logo.png" eager class="ma-4" alt="Code for Pakistan" />
+          </a>
+        </v-col>
+        <v-col cols="3">
+          <a href="https://codeforpakistan.org" target="_blank">
+            <v-img src="@/assets/cfp_logo.png" eager class="ma-4" alt="Code for Pakistan" />
+          </a>
         </v-col>
       </v-row>
-      <p class="my-4 mt-md-16 text-center">Made with ❤️ by Code for Pakistan</p>
+      <p class="my-4 mt-md-16">Made with ❤️ by Code for Pakistan.</p>
+      <p class="mb-4">&copy; Copyrights of all content, images, and logos are owned by respective owners.</p>
       <p class="text-center">
         <router-link class="text-white" :to="{ name: 'Terms' }">Terms and Conditions</router-link> | 
         <router-link class="text-white" :to="{ name: 'Conduct' }">Code of Conduct</router-link> | 
         <router-link class="text-white" :to="{ name: 'Harassment' }">Anti-Harassment Policy</router-link>
       </p>
     </v-container>
-  </v-footer>
+  </section>
 </template>
 
 <script setup>

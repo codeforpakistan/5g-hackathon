@@ -26,6 +26,18 @@
           </ul>
         </v-col>
       </v-row>
+
+      <h2 class="text-h4 text-sm-h3 font-weight-bold mb-4 text-sm-center mt-16">
+        <span class="text-primary pe-3">[</span>Evaluation Criteria<span class="text-primary ps-3">]</span></h2>
+      <v-row>
+        <v-col cols="12" sm="2" lg="1"><strong>Relevance</strong></v-col><v-col cols="12" sm="10" lg="11"> Alignment of the idea with the chosen theme and its potential to address critical challenges specific to Pakistan's context within the selected domains.</v-col>
+        <v-col cols="12" sm="2" lg="1"><strong>Innovation</strong></v-col><v-col cols="12" sm="10" lg="11">Originality, uniqueness, and creativity of the idea; integration of cutting-edge technologies and novel approaches.</v-col>
+        <v-col cols="12" sm="2" lg="1"><strong>Feasibility</strong></v-col><v-col cols="12" sm="10" lg="11">Practicality and feasibility of implementing the proposed idea within the given time frame and available resources.</v-col>
+        <v-col cols="12" sm="2" lg="1"><strong>Impact</strong></v-col><v-col cols="12" sm="10" lg="11">Potential impact and value that the idea can bring; potential for positive changes, improvements, or solutions to critical challenges in the target domain.</v-col>
+        <v-col cols="12" sm="2" lg="1"><strong>Scalability</strong></v-col><v-col cols="12" sm="10" lg="11">Potential of scalability of the idea beyond the hackathon; whether the proposed solution can be expanded, replicated, or adapted to cater to a larger audience or broader context.</v-col>
+        <v-col cols="12" sm="2" lg="1"><strong>Presentation</strong></v-col><v-col cols="12" sm="10" lg="11">Clarity, effectiveness, and organization of the presentation; ability of the presenter to articulate the idea and convey it in a compelling manner.</v-col>
+      </v-row>
+
     </v-container>
   </section>
 </template>

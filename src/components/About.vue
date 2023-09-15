@@ -2,10 +2,10 @@
   <section id="about" class="py-sm-8 py-md-16 pattern">
     <v-container>
       <h2 class="text-h4 text-sm-h3 text-sm-center font-weight-bold mb-4"><span class="text-primary pe-3">[</span>About<span class="text-primary ps-3">]</span></h2>
-      <p class="text-subtitle-1 text-md-center">
+      <p class="text-h6 text-md-center">
         The 5G Innovation Hackathon is a collaborative initiative between <a href="https://jazz.com.pk" target="_blank">Jazz</a>
         and <a href="https://sines.nust.edu.pk" target="_blank">National University of Sciences and Technology (NUST)</a>, in
-        partnership with <a href="https://codeforpakistan.org" target="_blank">Code for Pakistan (CfP)</a>. This hackathon aims to
+        partnership with the <a href="https://nitb.gov.pk" target="_blank">National IT Board</a> and <a href="https://codeforpakistan.org" target="_blank">Code for Pakistan (CfP)</a>. This hackathon aims to
         leverage the power of 5G and other cutting-edge technologies to develop
         innovative solutions addressing critical challenges in Pakistan's
         healthcare, education, disaster management and climate change,

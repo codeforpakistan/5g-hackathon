@@ -6,6 +6,7 @@ import { useAppStore } from '@/store/app.js'
 import Layout from '@/layouts/default/Default.vue'
 import Home from '@/views/Home.vue'
 import Register from '@/views/Register.vue'
+import Lab from '@/views/Lab.vue'
 import Terms from '@/views/Terms.vue'
 import Conduct from '@/views/Conduct.vue'
 import Harassment from '@/views/Harassment.vue'
@@ -18,6 +19,7 @@ const routes = [
       { path: '/register', name: 'Register', component: Register, beforeEnter(to, from) {
         if (useAppStore().applied) return { path: from.path }
       } },
+      { path: '/lab', name: 'Lab', component: Lab },
       { path: '/terms', name: 'Terms', component: Terms },
       { path: '/conduct', name: 'Conduct', component: Conduct },
       { path: '/harassment', name: 'Harassment', component: Harassment },
