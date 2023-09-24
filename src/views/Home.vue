@@ -1,5 +1,6 @@
 <template>
   <Banner />
+  <Partners />
   <About />
   <Themes />
   <Schedule />
@@ -10,6 +11,7 @@
 
 <script setup>
   import Banner from '@/components/Banner.vue'
+  import Partners from '@/components/Partners.vue'
   import About from '@/components/About.vue'
   import Themes from '@/components/Themes.vue'
   import Schedule from '@/components/Schedule.vue'

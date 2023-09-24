@@ -5,10 +5,10 @@
         <p class="text-h5 font-weight-bold">#Jazz5Grevolution</p>
         <h1 class="text-h3 text-md-h2 font-weight-bold my-8 my-md-16 text-white">5G Innovation Hackathon</h1>
         <template v-if="!state.applied">
-          <v-btn flat size="x-large" color="light" :to="{ name: 'Register' }">Apply now</v-btn>
+          <v-btn flat size="x-large" class="font-weight-bold" color="light" :to="{ name: 'Register' }">Apply now</v-btn>
         </template>
         <template v-else>
-          <v-btn flat size="x-large" color="light" href="https://5g-innovation-hackathon.devpost.com/" target="_blank">Visit Hackathon Site</v-btn>
+          <v-btn flat size="x-large" class="font-weight-bold" color="light" href="https://5g-innovation-hackathon.devpost.com/" target="_blank">Visit Hackathon Site</v-btn>
         </template>
       </v-responsive>
     </v-container>

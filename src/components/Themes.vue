@@ -51,7 +51,7 @@
         </v-col>
         <v-col cols="12" sm="6" md="4">
           <v-card flat variant="tonal" class="fill-height">
-            <v-card-title class="text-h5 text-primary">Agriculture</v-card-title>
+            <v-card-title class="text-h5 text-primary">Agri-tech</v-card-title>
             <v-card-text>
               <p class="mb-3">Farms of the future will use more data and fewer chemicals. Taking data from sensors located
                 directly in fields, farmers
@@ -65,7 +65,7 @@
         </v-col>
         <v-col cols="12" sm="6" md="4">
           <v-card flat variant="tonal" class="fill-height">
-            <v-card-title class="text-h5 text-primary">Industry</v-card-title>
+            <v-card-title class="text-h5 text-primary">Industry 4.0</v-card-title>
             <v-card-text>
               <p>Factory floors will be totally transformed by the convergence of 5G, AI, and IoT. Beyond predictive
                 maintenance that helps

@@ -12,15 +12,13 @@
         agriculture, and industrial sectors.
       </p>
       <v-responsive>
-        <v-timeline direction="horizontal">
+        <v-timeline :direction="orientation" :side="siding">
           <v-timeline-item dot-color="primary" size="x-small">
-            <template v-slot:opposite>
               <v-card variant="text">
                 <v-card-title class="text-h1 font-weight-bold">1G</v-card-title>
                 <v-card-subtitle class="text-h6">First Generation</v-card-subtitle>
                 <v-card-text>Mobile Telephony</v-card-text>
               </v-card>
-            </template>
           </v-timeline-item>
           <v-timeline-item dot-color="primary" size="small">
               <v-card variant="text">
@@ -33,7 +31,6 @@
               </v-card>
           </v-timeline-item>
           <v-timeline-item dot-color="primary" size="default">
-            <template v-slot:opposite>
               <v-card variant="text">
                 <v-card-title class="text-h1 font-weight-bold">3G</v-card-title>
                 <v-card-subtitle class="text-h6">Third Generation</v-card-subtitle>
@@ -43,7 +40,6 @@
                   <p class="text-primary">Internet Browsing</p>
                 </v-card-text>
               </v-card>
-            </template>
           </v-timeline-item>
           <v-timeline-item dot-color="primary" size="large">
               <v-card variant="text">
@@ -58,7 +54,6 @@
               </v-card>
           </v-timeline-item>
           <v-timeline-item dot-color="primary" size="x-large">
-            <template v-slot:opposite>
               <v-card variant="text">
                 <v-card-title class="text-h1 font-weight-bold text-primary">5G</v-card-title>
                 <v-card-subtitle class="text-h6">Fifth Generation</v-card-subtitle>
@@ -70,7 +65,6 @@
                   <p class="text-primary">Real-Time Streaming</p>
                 </v-card-text>
               </v-card>
-            </template>
           </v-timeline-item>
         </v-timeline>
       </v-responsive>
@@ -78,8 +72,40 @@
   </section>
 </template>
 
+<script setup>
+import { computed } from 'vue'
+import { useDisplay } from 'vuetify'
+const { name } = useDisplay()
+const orientation = computed(() => {
+  // name is reactive and
+  // must use .value
+  switch (name.value) {
+    case 'xs': return 'vertical'
+    case 'sm': return 'vertical'
+    case 'md': return 'horizontal'
+    case 'lg': return 'horizontal'
+    case 'xl': return 'horizontal'
+    case 'xxl': return 'horizontal'
+  }
+  return undefined
+})
+const siding = computed(() => {
+  // name is reactive and
+  // must use .value
+  switch (name.value) {
+    case 'xs': return 'end'
+    case 'sm': return 'center'
+    case 'md': return 'end'
+    case 'lg': return 'end'
+    case 'xl': return 'end'
+    case 'xxl': return 'end'
+  }
+  return undefined
+})
+</script>
 
 <style>
   .pattern { background-image: url('@/assets/pattern.svg'); background-position: center center; background-size: cover; }
   .v-card .v-card-title { line-height: normal !important; }
+  .v-timeline--horizontal.v-timeline .v-timeline-item:nth-child(2n+1) .v-timeline-item__body { align-self: start !important; }
 </style>

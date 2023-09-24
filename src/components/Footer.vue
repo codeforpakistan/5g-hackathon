@@ -1,7 +1,7 @@
 <template>
   <section class="tornado py-sm-8 py-md-16 text-white text-center">
     <v-container>
-      <v-row justify="center">
+      <!-- <v-row justify="center">
         <v-col cols="3">
           <a href="https://jazz.com.pk" target="_blank">
             <v-img src="@/assets/jazz_logo.png" eager alt="Jazz Pakistan" />
@@ -22,9 +22,8 @@
             <v-img src="@/assets/cfp_logo.png" eager class="ma-4" alt="Code for Pakistan" />
           </a>
         </v-col>
-      </v-row>
-      <p class="my-4 mt-md-16">Made with ❤️ by Code for Pakistan.</p>
-      <p class="mb-4">&copy; Copyrights of all content, images, and logos are owned by respective owners.</p>
+      </v-row> -->
+      <p class="mb-4">&copy; Copyrights of all content, images, and logos are owned by respective organizations.</p>
       <p class="text-center">
         <router-link class="text-white" :to="{ name: 'Terms' }">Terms and Conditions</router-link> | 
         <router-link class="text-white" :to="{ name: 'Conduct' }">Code of Conduct</router-link> | 
