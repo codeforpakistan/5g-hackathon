@@ -14,17 +14,17 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase I: Registration</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">September 1-15, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">Starting September 26, 2023</v-card-subtitle>
             <v-card-text class="text-subtitle-1">
               Hackathon is announced on social media, registrations are opened, and candidates are requested to submit
-              applications. Registrations to remain open till the 15th of September.
+              applications. Registrations to remain open till further notice.
             </v-card-text>
           </v-card>
         </v-window-item>
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase II: Shortlisting</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">September 18-22, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">To be announced, 2023</v-card-subtitle>
             <v-card-text class="text-subtitle-1">After close of registration, organizers will carefully review and
               evaluate submitted applications to identify most promising and innovative concepts (see evaluation
               criteria). Through a systematic and fair evaluation process, a select number of ideas are shortlisted based
@@ -35,7 +35,7 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase III: Orientation</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">September 25, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">To be announced, 2023</v-card-subtitle>
             <v-card-text class="text-subtitle-1">The hackathon begins with an orientation session, where the participants
               will be briefed on 5G
               technologies and the lab's resources, facilities, and available technologies. Additionally, it will include
@@ -47,7 +47,7 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase IV: Hackathon</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">September 25 - October 27, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">To be announced, 2023</v-card-subtitle>
             <v-card-text class="text-subtitle-1">The participants will be given four weeks to ideate, build, refine,
               and test their solutions. They will have access to mentors who will provide subject-matter expertise on
               relevant themes and 5G technologies. Organizers will provide mentor scheduling services either physcially or
@@ -57,7 +57,7 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase V: Testing</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">October 18-27, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">To be announced, 2023</v-card-subtitle>
             <v-card-text class="text-subtitle-1">The 5G lab at NUST will be available for testing and validation of
               prototypes towards the end of the hacking period. Participants will have two weeks to test and validate
               their products or solutions to ensure that everything works and they are ready to be judged. The organizers
@@ -68,7 +68,7 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase VI: Judging</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">October 30, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">To be announced, 2023</v-card-subtitle>
             <v-card-text class="text-subtitle-1">The final adjudication will take place towards the end of October where
               all participants will present and demonstrate their prototypes infront of a panel of judges.</v-card-text>
           </v-card>
