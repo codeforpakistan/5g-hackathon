@@ -21,7 +21,7 @@
           <ul class="px-4">
             <li class="mb-4">Candidates must register as part of a team. Teams may consist of between 2 and 5 members.</li>
             <li class="mb-4">All team members must individually meet the eligibility criteria.</li>
-            <li class="mb-4">Candidates must commit to being available for the hackathon, from 25 September 2023 to 21 October 2023.</li>
+            <li class="mb-4">Candidates must commit to being available for the hackathon, between September 2023 and November 2023.</li>
             <li class="mb-4">The hackathon is open to participants from Pakistan. Candidates from other regions/countries may be eligible upon approval, but please check with the organizers.</li>
           </ul>
         </v-col>

@@ -69,7 +69,7 @@
           <v-card color="transparent">
             <v-card-title>Phase VI: Judging</v-card-title>
             <v-card-subtitle class="text-primary font-weight-bold">To be announced, 2023</v-card-subtitle>
-            <v-card-text class="text-subtitle-1">The final adjudication will take place towards the end of October where
+            <v-card-text class="text-subtitle-1">The final adjudication will take place towards the end of the event where
               all participants will present and demonstrate their prototypes infront of a panel of judges.</v-card-text>
           </v-card>
         </v-window-item>

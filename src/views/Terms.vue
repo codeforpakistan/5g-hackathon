@@ -12,11 +12,11 @@
             <li class="mb-4">Familiarity with 5G technology, IoT, or related domains is advantageous but not mandatory.</li>
             <li class="mb-4">Participants can register individually or as part of a team. Teams may consist of up to [maximum team size] members.</li>
             <li class="mb-4">If registering as a team, all team members must individually meet the eligibility criteria.</li>
-            <li class="mb-4">Participants must commit to being available for the hackathon, from September 21, 2023, to October 22, 2023.</li>
+            <li class="mb-4">Participants must commit to being available for the hackathon, between September 2023 and November 2023.</li>
             <li class="mb-4">The hackathon is open to participants from Pakistan. Participants from other regions/countries may be eligible upon approval, but please check with the organizers.</li>
             <li class="mb-4">Access to a computer with internet connectivity and necessary software/tools for development.</li>
             <li class="mb-4">Participants will be given access to the 5G Lab upon request.</li>
-            <li class="mb-4">All registrations must be submitted by September 14, 2023. Late registrations may not be considered.</li>
+            <li class="mb-4">All registrations must be submitted by closing date. Late registrations may not be considered.</li>
             <li class="mb-4">Participants must agree to abide by the hackathon's code of conduct, which promotes respectful behavior, collaboration, and inclusivity.</li>
             <li class="mb-4">Participants must confirm that they are not subject to export control restrictions or other legal prohibitions that would prevent their participation in the hackathon.</li>
             <li class="mb-4">Participants acknowledge and consent to the use of their data and images for promotional and informational purposes related to the hackathon.</li>
