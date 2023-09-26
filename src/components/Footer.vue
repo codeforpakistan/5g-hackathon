@@ -23,18 +23,27 @@
           </a>
         </v-col>
       </v-row> -->
-      <p class="mb-4">&copy; Copyrights of all content, images, and logos are owned by respective organizations.</p>
       <p class="text-center">
         <router-link class="text-white" :to="{ name: 'Terms' }">Terms and Conditions</router-link> | 
         <router-link class="text-white" :to="{ name: 'Conduct' }">Code of Conduct</router-link> | 
         <router-link class="text-white" :to="{ name: 'Harassment' }">Anti-Harassment Policy</router-link>
       </p>
+
+      <p class="my-4">For fourther inquiries, please reach out to us on <a class="text-white" :href="obfuscated">{{ displayed }}</a>. </p>
+      
+      <p>&copy; Copyrights of all content, images, and logos are owned by respective organizations.</p>
     </v-container>
   </section>
 </template>
 
 <script setup>
-//
+import { computed } from 'vue'
+const obfuscated = computed(() => {
+  return 'mailto:\u0065\u0076\u0065\u006e\u0074\u0073\u0040\u0063\u006f\u0064\u0065\u0066\u006f\u0072\u0070\u0061\u006b\u0069\u0073\u0074\u0061\u006e\u002e\u006f\u0072\u0067'
+})
+const displayed = computed(() => {
+  return '\u0065\u0076\u0065\u006e\u0074\u0073\u0040\u0063\u006f\u0064\u0065\u0066\u006f\u0072\u0070\u0061\u006b\u0069\u0073\u0074\u0061\u006e\u002e\u006f\u0072\u0067'
+})
 </script>
 
 <style>
