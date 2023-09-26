@@ -4,11 +4,6 @@
       <h2 class="text-h4 text-sm-h3 text-sm-center font-weight-bold mb-4 mb-md-16"><span class="text-primary pe-3">[</span>Brought to you by<span class="text-primary ps-3">]</span></h2>
       <v-row justify="center" align="center">
         <v-col cols="6" sm="4" lg="2">
-          <a href="https://oppo.com" target="_blank">
-            <v-img src="@/assets/oppo_logo.png" eager max-height="200" max-width="200" alt="Oppo" />
-          </a>
-        </v-col>
-        <v-col cols="6" sm="4" lg="2">
           <a href="https://jazz.com.pk" target="_blank">
             <v-img src="@/assets/jazz_logo.png" eager max-height="200" max-width="200" alt="Jazz Pakistan" />
           </a>
@@ -21,6 +16,11 @@
         <v-col cols="6" sm="4" lg="2">
           <a href="https://nitb.gov.pk" target="_blank">
             <v-img src="@/assets/nitb-green.png" eager max-height="200" max-width="200" alt="National IT Board" />
+          </a>
+        </v-col>
+        <v-col cols="6" sm="4" lg="2">
+          <a href="https://oppo.com" target="_blank">
+            <v-img src="@/assets/oppo_logo.png" eager max-height="200" max-width="200" alt="Oppo" />
           </a>
         </v-col>
         <v-col cols="6" sm="4" lg="2">
