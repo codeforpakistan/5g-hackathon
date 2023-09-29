@@ -7,7 +7,7 @@
       <v-row class="mt-4">
         <v-col cols="12" sm="6" md="4">
           <v-card flat variant="tonal" class="fill-height">
-            <v-card-title class="text-h5 text-primary">Retail</v-card-title>
+            <v-card-title class="text-h5 text-primary">Fintech &amp; Retail</v-card-title>
             <v-card-text>
               <p>For 5G retail applications, the customer experience will be everything. Imagine a store that's more like
                 a showroom—one that lets you add
