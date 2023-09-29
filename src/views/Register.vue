@@ -91,6 +91,7 @@ export default {
       const { valid } = await this.$refs.form.validate()
       if (valid) {
         useAppStore().apply()
+        this.$gtag.event('register', { method: 'Google' })
         this.$refs.form.submit()
       } else {
         this.$router.push({ name: 'Done' })

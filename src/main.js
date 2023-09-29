@@ -17,4 +17,10 @@ const app = createApp(App)
 
 registerPlugins(app)
 
+import VueGtag from "vue-gtag";
+
+app.use(VueGtag, {
+  config: { id: "G-7FVR0XX6V7" }
+})
+
 app.mount('#app')

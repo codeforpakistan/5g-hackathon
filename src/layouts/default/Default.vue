@@ -38,7 +38,10 @@ export default {
       { title: 'Eligibility', path: '/', hash: '#eligibility' },
       { title: 'The Lab', path: '/lab', hash: null },
     ]
-  })
+  }),
+  mounted() {
+    this.$gtag.event('landing', { method: 'Google' })
+  }
 }
 </script>
 <style>
