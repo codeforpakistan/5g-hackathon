@@ -20,7 +20,7 @@ registerPlugins(app)
 import VueGtag from "vue-gtag";
 
 app.use(VueGtag, {
-  config: { id: "G-7FVR0XX6V7" }
+  config: { id: "G-E5HVHTC681" }
 })
 
 app.mount('#app')
