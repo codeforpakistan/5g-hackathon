@@ -67,7 +67,7 @@ export default {
     description: null,
     agreement: null,
     theme: null,
-    themes: ['Retail','Education','Health','Environment','Agriculture','Industry'],
+    themes: ['Fintech and Retail','Education','Health','Environment','Agriculture','Industry'],
     rules: {
       required: [
         v => !!v || 'Field is required',
