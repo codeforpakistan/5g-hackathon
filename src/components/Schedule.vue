@@ -14,10 +14,10 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase I: Registration</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">Starting September 26, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">Registrations open till 15 October, 2023</v-card-subtitle>
             <v-card-text class="text-subtitle-1">
               Hackathon is announced on social media, registrations are opened, and candidates are requested to submit
-              applications. Registrations to remain open till further notice.
+              applications. 
             </v-card-text>
           </v-card>
         </v-window-item>

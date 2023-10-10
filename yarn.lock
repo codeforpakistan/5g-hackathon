@@ -1289,6 +1289,11 @@ vuetify@^3.0.0:
   resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.3.14.tgz#623a816f903a8f86530e3d72246c4d6cc1cfda22"
   integrity sha512-5kGnahj/cX5989bV9XM432k/BJ11fRdJ3CCdISjo1auCz+rLEeLJdjMeqyCJVd0FZsWcE1Z8799s9sLdLM3Deg==
 
+vuewordcloud@^19.0.0:
+  version "19.0.0"
+  resolved "https://registry.yarnpkg.com/vuewordcloud/-/vuewordcloud-19.0.0.tgz#11386518f30e60a5fb6d750ab0d7455c388c8126"
+  integrity sha512-DgvvtatvU+lp1Crb7s+KbjvO/ULJLc43jce/mUY31bHireqeIHKaZ9PeXRfAy0rMcZi8EURnGK0ZPWoJBDRUhw==
+
 webfontloader@^1.0.0:
   version "1.6.28"
   resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.28.tgz#db786129253cb6e8eae54c2fb05f870af6675bae"

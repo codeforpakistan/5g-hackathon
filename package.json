@@ -19,6 +19,7 @@
     "vue-recaptcha-v3": "^2.0.1",
     "vue-router": "^4.0.0",
     "vuetify": "^3.0.0",
+    "vuewordcloud": "^19.0.0",
     "webfontloader": "^1.0.0"
   },
   "devDependencies": {
