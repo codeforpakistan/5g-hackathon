@@ -3,8 +3,8 @@
   <Partners />
   <About />
   <Themes />
-  <Schedule />
   <Prizes />
+  <Schedule />
   <Eligibility />
   <PageFooter />
 </template>

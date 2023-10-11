@@ -33,8 +33,8 @@ export default {
     menu: [
       { title: 'About', path: '/', hash: '#about' },
       { title: 'Themes', path: '/', hash: '#themes' },
-      { title: 'Schedule', path: '/', hash: '#schedule' },
       { title: 'Prizes', path: '/', hash: '#prizes' },
+      { title: 'Schedule', path: '/', hash: '#schedule' },
       { title: 'Eligibility', path: '/', hash: '#eligibility' },
       { title: 'The Lab', path: '/lab', hash: null },
     ]

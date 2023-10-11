@@ -1,10 +1,16 @@
 <template>
-  <section id="themes" class="rism py-sm-8 py-md-16">
+  <section id="themes" class="prism py-sm-8 py-md-16">
     <v-container>
       <h2 class="text-h4 text-sm-h3 text-sm-center font-weight-bold mb-4">
         <span class="text-primary pe-3">[</span>Themes<span class="text-primary ps-3">]</span>
       </h2>
-      <v-row class="mt-4">
+
+      <vue-word-cloud 
+        class="mx-auto w-75 h-screen" :words="words" font-family="Lato" 
+        :color="([, weight]) => weight > 2 ? '#e11b22' : weight > 1 ? '#fcaf17' : '#670000'"
+      />
+
+      <!-- <v-row class="mt-4">
         <v-col cols="12" sm="6" md="4">
           <v-card flat variant="tonal" class="fill-height">
             <v-card-title class="text-h5 text-primary">Fintech &amp; Retail</v-card-title>
@@ -77,12 +83,60 @@
           </v-card-text>
         </v-card>
       </v-col>
-    </v-row>
-  </v-container>
-</section></template>
+      </v-row> -->
+    </v-container>
+  </section>
+</template>
 
 <style>.prism {
   background-image: url('@/assets/prism.svg');
   background-position: center center;
   background-size: cover;
 }</style>
+
+<script>
+import VueWordCloud from 'vuewordcloud';
+export default {
+  components: {
+    [VueWordCloud.name]: VueWordCloud,
+  },
+  data: () =>({
+    words: [
+      ['education', Math.floor(Math.random() * 4)], 
+        // ['classroom', 1], 
+        // ['student', 1], 
+        // ['teacher', 1], 
+        // ['interactive', 1], 
+        // ['learning', 1], 
+      ['healthcare', Math.floor(Math.random() * 4)], 
+        // ['doctors', 1],
+        // ['patients', 1],
+        // ['werables', 1],
+        // ['devices', 1],
+        // ['records', 1],
+      ['retail', Math.floor(Math.random() * 4)], 
+        // ['customer', 1],
+        // ['store', 1],
+        // ['showroom', 1],
+        // ['shopping', 1],
+        // ['cart', 1],
+        // ['inventory', 1],
+        // ['stocks', 1],
+        // ['checkout', 1],
+      ['fin-tech', Math.floor(Math.random() * 3)],
+      ['industry 4.0', Math.floor(Math.random() * 3)],
+      ['environment', Math.floor(Math.random() * 3)],
+      ['agri-tech', Math.floor(Math.random() * 3)],
+      ['smart cities', Math.floor(Math.random() * 3)],
+      ['tourism', Math.floor(Math.random() * 3)],
+      ['climate change', Math.floor(Math.random() * 3)],
+      ['disaster', Math.floor(Math.random() * 3)],
+      ['sports', Math.floor(Math.random() * 3)],
+      ['gaming', Math.floor(Math.random() * 3)],
+      ['entertainment', Math.floor(Math.random() * 3)],
+      ['civic services', Math.floor(Math.random() * 3)],
+    ],
+
+  })
+};
+</script>
