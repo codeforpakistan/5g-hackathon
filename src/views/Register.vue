@@ -78,11 +78,11 @@ export default {
       ],
       contact: [
         v => !!v || 'Field is required',
-        v => /^[0-9]{4}-[0-9]{7}$/im.test(v) || 'Invalid format'
+        v => /^[0-9]{4}-[0-9]{7}$/im.test(v) || 'Invalid contact. Please use 03xx-1234567 format'
       ],
       cnic: [
         v => !!v || 'Field is required',
-        v => /^[0-9]{5}-[0-9]{7}-[0-9]{1}$/im.test(v) || 'Invalid format'
+        v => /^[0-9]{5}-[0-9]{7}-[0-9]{1}$/im.test(v) || 'Invalid CNIC. Please use 12345-6789012-3 format'
       ]
     }
   }),
