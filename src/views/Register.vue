@@ -13,8 +13,8 @@
           <v-card-text>
             <v-text-field variant="underlined" label="Full name" name="name" append-inner-icon="mdi-account" v-model="name" :rules="rules.required" clearable></v-text-field>
             <v-text-field variant="underlined" label="Email address" name="email" append-inner-icon="mdi-email" v-model="email" :rules="rules.email" clearable></v-text-field>
-            <v-text-field variant="underlined" label="Contact number" name="contact" v-model="contact" prefix="+92" append-inner-icon="mdi-phone" :rules="rules.contact" hint="Format your mobile number as 03XX-1234567" clearable></v-text-field>
-            <v-text-field variant="underlined" label="National ID Number" name="cnic" append-inner-icon="mdi-badge-account-horizontal-outline" v-model="cnic" :rules="rules.cnic" hint="Format your CNIC as 12345-6789012-3" clearable></v-text-field>
+            <v-text-field variant="underlined" label="Contact number" name="contact" v-model="contact" prefix="+92" append-inner-icon="mdi-phone" hint="Format your mobile number as 03XX-1234567" clearable></v-text-field>
+            <v-text-field variant="underlined" label="National ID Number" name="cnic" append-inner-icon="mdi-badge-account-horizontal-outline" v-model="cnic" hint="Format your CNIC as 12345-6789012-3" clearable></v-text-field>
             <v-text-field variant="underlined" label="Affiliation" name="affiliation" append-inner-icon="mdi-bank" v-model="affiliation" :rules="rules.required" hint="Name of university, institute, or organization" clearable></v-text-field>
             <!-- <v-text-field variant="underlined" label="Team name" name="team" append-inner-icon="mdi-account-group" v-model="team" :rules="rules.required" hint="Make sure your team name is identical between all your team mates" clearable></v-text-field> -->
             <!-- <v-row no-gutters align="center">
