@@ -4,7 +4,7 @@
       <v-app-bar-nav-icon class="d-sm-none" @click="drawer=!drawer" />
       <v-app-bar-title class="d-sm-none">5G Innovation Hackathon</v-app-bar-title>
       <v-spacer/>
-      <v-tabs class="d-none d-sm-flex" center-active hideslider>
+      <v-tabs class="d-none d-sm-flex" center-active hide-slider>
         <v-tab rounded="0" exact class="text-h6" v-for="(item, i) in menu" :key="i" :to="{ path: item.path, hash: item.hash }">{{ item.title }}</v-tab>
       </v-tabs>
       <v-spacer/>
@@ -36,6 +36,7 @@ export default {
       { title: 'Prizes', path: '/', hash: '#prizes' },
       { title: 'Schedule', path: '/', hash: '#schedule' },
       { title: 'Eligibility', path: '/', hash: '#eligibility' },
+      { title: 'FAQs', path: '/', hash: '#faqs' },
       { title: 'The Lab', path: '/lab', hash: null },
     ]
   }),

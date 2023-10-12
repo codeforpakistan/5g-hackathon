@@ -6,6 +6,7 @@
   <Prizes />
   <Schedule />
   <Eligibility />
+  <Questions />
   <PageFooter />
 </template>
 
@@ -17,5 +18,6 @@
   import Schedule from '@/components/Schedule.vue'
   import Prizes from '@/components/Prizes.vue'
   import Eligibility from '@/components/Eligibility.vue'
+  import Questions from '@/components/Questions.vue'
   import PageFooter from '@/components/Footer.vue'
 </script>
