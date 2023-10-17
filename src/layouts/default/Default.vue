@@ -15,9 +15,9 @@
           <v-list-item-title>{{ item.title }}</v-list-item-title>
         </v-list-item>
       </v-list>
-      <div class="pa-2">
+      <!-- <div class="pa-2">
         <v-btn flat block color="primary" :to="{ path: '/register' }">Apply now</v-btn>
-      </div>
+      </div> -->
     </v-navigation-drawer>
     <default-view />
   </v-app>

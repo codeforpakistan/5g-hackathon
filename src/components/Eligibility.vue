@@ -3,7 +3,7 @@
     <v-container>
       <h2 class="text-h4 text-sm-h3 font-weight-bold mb-4 text-sm-center">
         <span class="text-primary pe-3">[</span>Eligibility<span class="text-primary ps-3">]</span></h2>
-      <p class=" text-sm-center">To participate, candidates must <router-link :to="{ name: 'Register' }">register</router-link> and submit project details for evaluation.</p>
+      <p class=" text-sm-center">To participate, candidates must register and submit project details for evaluation.</p>
       <v-row class="mt-8">
         <v-col>
           <ul class="px-4">

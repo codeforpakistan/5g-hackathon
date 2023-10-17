@@ -14,7 +14,7 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase I: Registration</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">Registrations open till 15 October, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">Registrations are closed! Thank you for applying.</v-card-subtitle>
             <v-card-text class="text-subtitle-1">
               Hackathon is announced on social media, registrations are opened, and candidates are requested to submit
               applications. 
@@ -24,7 +24,7 @@
         <v-window-item>
           <v-card color="transparent">
             <v-card-title>Phase II: Shortlisting</v-card-title>
-            <v-card-subtitle class="text-primary font-weight-bold">To be announced, 2023</v-card-subtitle>
+            <v-card-subtitle class="text-primary font-weight-bold">We are currently shortlisting applications. Selected individuals/teams will be notified soon.</v-card-subtitle>
             <v-card-text class="text-subtitle-1">After close of registration, organizers will carefully review and
               evaluate submitted applications to identify most promising and innovative concepts (see evaluation
               criteria). Through a systematic and fair evaluation process, a select number of ideas are shortlisted based

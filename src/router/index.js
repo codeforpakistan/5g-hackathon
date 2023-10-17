@@ -16,13 +16,14 @@ const routes = [
     path: '/', component: Layout,
     children: [
       { path: '', name: 'Home', component: Home },
-      { path: '/register', name: 'Register', component: Register, beforeEnter(to, from) {
-        if (useAppStore().applied) return { path: from.path }
-      } },
+      // { path: '/register', name: 'Register', component: Register, beforeEnter(to, from) {
+      //   if (useAppStore().applied) return { path: from.path }
+      // } },
       { path: '/lab', name: 'Lab', component: Lab },
       { path: '/terms', name: 'Terms', component: Terms },
       { path: '/conduct', name: 'Conduct', component: Conduct },
       { path: '/harassment', name: 'Harassment', component: Harassment },
+      { path: '/:pathMatch(.*)*', redirect: '/' }
     ],
   },
 ]

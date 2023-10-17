@@ -15,7 +15,7 @@ export default {
   data: () => ({
     items: [
       { question: 'What is the objective of the 5G Innovation Hackathon, and why is it so important?', answer: 'The 5G Innovation Hackathon is a dynamic event aimed at harnessing the power of 5G technology to create innovative solutions in a range of thematic areas. We believe it is essential to prioritize research and innovation around 5G because research acts as a catalyst, enabling us to harness the potential of 5G more rapidly and effectively when it becomes widely available. The 5G Innovation Hackathon is not just about the present; it is about preparing for a technologically advanced and connected future.' },
-      { question: 'When is the last date to register?', answer: 'The last date to register for the hackathon is October 15, 2023.' },
+      { question: 'When is the last date to register?', answer: 'The last date to register for the hackathon was October 15, 2023.' },
       { question: 'Who can participate in the hackathon?', answer: 'Anyone aged 18 years or older can participate. We welcome students, tech enthusiasts, professionals, and anyone passionate about innovation.' },
       { question: 'Do I need a team to register for the hackathon?', answer: 'No, you don\'t, and we can help you form a team if you\'d like. Otherwise, you can register as an individual or with a team.' },
       { question: 'So if I do have a team, what size should it be? ', answer: 'Teams can have between 2 and 5 members.' },
